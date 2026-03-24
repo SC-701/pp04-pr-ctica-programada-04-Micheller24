@@ -6,6 +6,6 @@ namespace Abstracciones.Interfaces.DA
     public interface IRepositorioDapper
     {
         SqlConnection obtenerRepositorio();
-
+        SqlConnection? ObtenerRepositorio();
     }
 }
