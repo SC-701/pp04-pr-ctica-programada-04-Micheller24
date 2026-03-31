@@ -3,14 +3,20 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
+
 		<Version>1.0.0</Version>
-		<PackageId>Autorizacion.Flujo.Micheller24</PackageId>
-		<Authors>Micheller24code</Authors>
-		<Description>Lógica de negocio del paquete de autorización. Agrega perfiles del usuario como claims al ClaimsPrincipal</Description>
-		<RepositoryUrl>https://github.com/SC701</RepositoryUrl>
+		<PackageId>Autorizacion.Flujo.micheller24</PackageId>
+		<Authors>Micheller24</Authors>
+		<Description>Lógica de negocio para autorización basada en claims</Description>
+		<RepositoryUrl>https://github.com/SC-701/pp04-pr-ctica-programada-04-Micheller24.git</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<ProjectReference Include="..\Autorizacion.Abstracciones\Autorizacion.Abstracciones.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\..\README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 </Project>

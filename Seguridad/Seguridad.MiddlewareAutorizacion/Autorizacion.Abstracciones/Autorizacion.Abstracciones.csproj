@@ -3,14 +3,16 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
+
 		<Version>1.0.0</Version>
-		<PackageId>Autorizacion.Abstracciones.Micheller24</PackageId>
-		<Authors>Micheller24code</Authors>
-		<Description>Interfaces y modelos del paquete de autorización por claims para ASP.NET Core 8</Description>
-		<RepositoryUrl>https://github.com/SC701</RepositoryUrl>
+		<PackageId>Autorizacion.Abstracciones.micheller24</PackageId>
+		<Authors>Micheller24</Authors>
+		<Description>Interfaces y modelos del paquete de autorización por claims</Description>
+		<RepositoryUrl>https://github.com/SC-701/pp04-pr-ctica-programada-04-Micheller24.git</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0" />
+		<None Include="..\..\..\README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 </Project>

@@ -3,18 +3,26 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
+
+		<!-- Metadatos personalizados -->
 		<Version>1.0.0</Version>
-		<PackageId>Autorizacion.Middleware.Micheller24</PackageId>
-		<Authors>Micheller24code</Authors>
+		<PackageId>Autorizacion.Middleware.micheller24</PackageId>
+		<Authors>Micheller24</Authors>
 		<Description>Middleware de autorización por claims para ASP.NET Core 8</Description>
-		<RepositoryUrl>https://github.com/SC701</RepositoryUrl>
+		<RepositoryUrl>https://github.com/SC-701/pp04-pr-ctica-programada-04-Micheller24.git</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
+
 	<ItemGroup>
-	  <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.9" />
-	  <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.1.1" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.1.1" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<ProjectReference Include="..\Autorizacion.Abstracciones\Autorizacion.Abstracciones.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\..\README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 </Project>
